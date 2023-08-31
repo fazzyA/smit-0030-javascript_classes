@@ -1,4 +1,4 @@
-what is data?
+what is data????
 information or user defined
 Data types.
 integars 1,2,......, -1, -2
