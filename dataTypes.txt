@@ -1,0 +1,21 @@
+what is data?
+information or user defined
+Data types.
+integars 1,2,......, -1, -2
+float 1.1, 0.4, 0.555, 122.3
+string "" abcd, words, sentenced, char
+boolean only 2 values true and false
+undefined
+null
+operators
++ - / % = == ===
+= assign
+var a = '10'; // assign
+ a == 10 // compares value // true
+ a === 10 // strict compare // false
+ a != 10 // false
+ a !== 10 // true
+ > greater than
+ < less than
+ >= <=
+ !> !<
