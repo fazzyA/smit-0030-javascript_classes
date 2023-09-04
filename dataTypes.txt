@@ -18,4 +18,4 @@ var a = '10'; // assign
  > greater than
  < less than
  >= <=
- !> !<
+ > !(<)
