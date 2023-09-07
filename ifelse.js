@@ -29,15 +29,30 @@
     //     console.log("not allowed")
     // }
     // console.log("after if else block")
-var city = 'Karachi';
-if (city === 'Karachi') {
-   console.log("beautiful city")
-} else{
-    console.log('no karachi')
-}
-var flower = prompt('enter ur flower', 'rose');
-if(flower.toLowerCase() !== 'rose') {
-    console.log('I will accept', flower)
+// var age = prompt('enter age');
+// var gender = prompt('enter g');
+// if (age > 16 && gender.toLowerCase() === 'female') {
+//    console.log("YES")
+// } else{
+//     console.log('no')
+// }
+// var flower = prompt('enter ur flower', 'rose');
+// if(flower.toLowerCase() !== 'rose') {
+//     console.log('I will accept', flower)
+// } else {
+//     console.log('will not accept', flower)
+// }
+var num1 = 10;
+var num2 = 4;
+var num3 = 2;
+// age 10 or above,  9 waiting, not allowed
+var age = +prompt("enter ur age")
+if (age >= 10) {
+    console.log('allowed')
+} else if (age === 9) {
+    console.log('waiting')
 } else {
-    console.log('will not accept', flower)
+    console.log('not allowed');
 }
+
+console.log('after if');
