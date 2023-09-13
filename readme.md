@@ -13,3 +13,8 @@ var num2 = 4;
 var num3 = 2;
 var num4 = 1;
 `
+
+## Make a program in which it tell if user has entered value which exists in our given variables.
+
+**Hint
+`take some variables with number values and check user input is equal to one of the variables`
