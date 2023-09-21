@@ -31,11 +31,12 @@
     //     console.log("not allowed")
     // }
     // console.log("after if else block")
-// var city = 'Karachi';
-// if (city === 'Karachi') {
-//    console.log("beautiful city")
+// var age = prompt('enter age');
+// var gender = prompt('enter g');
+// if (age > 16 && gender.toLowerCase() === 'female') {
+//    console.log("YES")
 // } else{
-//     console.log('no karachi')
+//     console.log('no')
 // }
 // var flower = prompt('enter ur flower', 'rose');
 // if(flower.toLowerCase() !== 'rose') {
@@ -43,21 +44,17 @@
 // } else {
 //     console.log('will not accept', flower)
 // }
+var num1 = 10;
+var num2 = 4;
+var num3 = 2;
+// age 10 or above,  9 waiting, not allowed
+var age = +prompt("enter ur age")
+if (age >= 10) {
+    console.log('allowed')
+} else if (age === 9) {
+    console.log('waiting')
+} else {
+    console.log('not allowed');
+}
 
-// var age = prompt('enter ur age', 10);
-// var gender = prompt('gender', 'female');
-
-// if (age > 10 && gender == 'female') {
-//     console.log('allowed');
-// } else {
-//     console.log('not allowed');
-// }
-var guess = "5";
-var user = +prompt('enter guess num')
- if (guess === user) {
-    console.log("good job");
- }
- else{
-    console.log("better luck next time");
- }
- 
+console.log('after if');
