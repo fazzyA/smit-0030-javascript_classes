@@ -3,7 +3,7 @@ var arr =[] // arr.length
 var arr1 = [10]
 var arr2 = new Array(10,29)
 var arr3 = new Array(10)
-var arr4 = [1, 2, 3, 4, 5, true, "binish"]
+var arr4 = [1, 2, 3, 4, 5, true, "binish"] // 7 //6
 
 // var cities = ['Karachi', 'islamabad', 'multan'];
 // cities length = 2 karachi = 0, isla-1
@@ -18,7 +18,7 @@ var arr4 = [1, 2, 3, 4, 5, true, "binish"]
 // var ten1 = [10];
 // console.log('ten ', ten) // 10, 0, 
 // console.log('ten1 ', ten1.length) // 1
-var cities = ['Karachi', 'islamabad', 'multan'];
+var cities = ['Karachi', 'islamabad', 'multan']; // 3 //2
 // console.log(cities[1]); // access, read values
 // // modify values / elements
 // cities[2] = "Faisalabad";
@@ -54,28 +54,37 @@ var cities = ['Karachi', 'islamabad', 'multan'];
 // var empty = [];
 // empty[0] = 1
 // console.log(empty.length); //0
-var tea = ['water', 'elaichi', 'milk'];
-// splice add, remove 
+// var tea = ['water', 'elaichi', 'milk'];
+// // splice add, remove 
 
-tea.splice(1, 1, 'tea', 'sugar');
-console.log(tea);
-var maggi = ['water', 'maggi', 'masala']
-console.log("🚀 ~ file: arrays.js:59 ~ maggi:", maggi)
-maggi.splice(1, 2, 'vegatables');
-console.log("🚀 ~ file: arrays.js:59 ~ maggi:", maggi)
-console.log("🚀 ~ file: arrays.js:64 ~ maggi:", maggi)
+// tea.splice(1, 1, 'tea', 'sugar');
+// console.log(tea);
+// var maggi = ['water', 'maggi', 'masala']
+// console.log("🚀 ~ file: arrays.js:59 ~ maggi:", maggi)
+// maggi.splice(1, 2, 'vegatables');
+// console.log("🚀 ~ file: arrays.js:59 ~ maggi:", maggi)
+// console.log("🚀 ~ file: arrays.js:64 ~ maggi:", maggi)
 
-var animals = ["dog", "cat", "fly", "bug", "ox"];
-animals.splice(2, 2, "bear", "duck", "emu");
+// var animals = ["dog", "cat", "fly", "bug", "ox"];
+// animals.splice(2, 2, "bear", "duck", "emu");
 // dog cat bear duck emu ox
 
 
-var count = [1,2,3,6,7,8]
-// 4, 5 , 9, 10
-count.splice(3, 0, 4, 5)
-console.log("🚀 ~ file: arrays.js:76 ~ count:", count)
-count.push(9, 10)
-console.log("🚀 ~ file: arrays.js:78 ~ count:", count)
+// var count = [1,2,3,6,7,8]
+// // 4, 5 , 9, 10
+// count.splice(3, 0, 4, 5)
+// console.log("🚀 ~ file: arrays.js:76 ~ count:", count)
+// count.push(9, 10)
+// console.log("🚀 ~ file: arrays.js:78 ~ count:", count)
+var animals = 
+["dog", "cat", "parrot","rabbit", "chicken", "fisher", "bat"]
+var halalAnimal = animals.slice(0, 5) // ["rabbit", "chicken"]
+// array.splice(2, 2, "da");
+console.log("🚀 ~ file: arrays.js:80 ~ halalAnimal:", halalAnimal)
+var fruits = ["banana", "kiwi", "cherry", "mango", "apple", "orange", "grapes"]
+// var likedFruit = fruits.slice(1, 4) // ["kiwi", "cherry", "mango"]
 
-
-
+// fruits.slice(1) // ["kiwi", "cherry", "mango", "apple", "orange", "grapes"]
+var likedFruit = fruits.slice(2) // ["kiwi", "cherry", "mango", "apple", "orange", "grapes"]
+// (start, one before end) (2, -2)
+// (-anynum) last elements
