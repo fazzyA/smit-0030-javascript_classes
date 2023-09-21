@@ -1,8 +1,10 @@
 //ifelse statement
 // var num = +prompt("enter any number");
 
-// if (condition => yes/no === true/false) {
+// if (condition => true/false) {
 
+// } else {
+    
 // }
 // if(num == 10) {
 // // do work here
@@ -29,15 +31,33 @@
     //     console.log("not allowed")
     // }
     // console.log("after if else block")
-var city = 'Karachi';
-if (city === 'Karachi') {
-   console.log("beautiful city")
-} else{
-    console.log('no karachi')
-}
-var flower = prompt('enter ur flower', 'rose');
-if(flower.toLowerCase() !== 'rose') {
-    console.log('I will accept', flower)
-} else {
-    console.log('will not accept', flower)
-}
+// var city = 'Karachi';
+// if (city === 'Karachi') {
+//    console.log("beautiful city")
+// } else{
+//     console.log('no karachi')
+// }
+// var flower = prompt('enter ur flower', 'rose');
+// if(flower.toLowerCase() !== 'rose') {
+//     console.log('I will accept', flower)
+// } else {
+//     console.log('will not accept', flower)
+// }
+
+// var age = prompt('enter ur age', 10);
+// var gender = prompt('gender', 'female');
+
+// if (age > 10 && gender == 'female') {
+//     console.log('allowed');
+// } else {
+//     console.log('not allowed');
+// }
+var guess = "5";
+var user = +prompt('enter guess num')
+ if (guess === user) {
+    console.log("good job");
+ }
+ else{
+    console.log("better luck next time");
+ }
+ 
