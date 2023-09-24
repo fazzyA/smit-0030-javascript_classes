@@ -88,3 +88,37 @@ var fruits = ["banana", "kiwi", "cherry", "mango", "apple", "orange", "grapes"]
 var likedFruit = fruits.slice(2) // ["kiwi", "cherry", "mango", "apple", "orange", "grapes"]
 // (start, one before end) (2, -2)
 // (-anynum) last elements
+// let array = [1,2,3,4,5,6,7,8,9,10]
+// for (let i=0; i<= array.length-1; i++ ){
+//     array[i] = array[i]+1 
+// }
+// console.log(array)
+
+// var table = +prompt('Enter table number :', 2);
+// var tableLenght = +prompt('Enter length of table :', 10);
+// for (let i = 1; i <= tableLenght; i = i + 2) {
+//     var element =table*i;
+//     // console.log(`${table} * ${i} = ${element}`)
+//     console.log(table + "*" + i + "=", table*i)
+// }
+
+// odd number 1- 100
+
+// for(let i = 1; i <= 100; i = i+2){
+//     console.log(i)
+// }
+// // even number 1- 100
+
+// for(let i = 2; i <= 100; i = i+2){
+//     console.log(i)
+// }
+let num = [];
+for(let i = 1; i <= 10; i++){
+   num.push(i)
+}
+console.log(num)
+
+
+
+
+
