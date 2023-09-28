@@ -1,0 +1,9 @@
+write a program that checks student's
+age and gender. if student is female
+and age is more than 10 then the
+student is allowed otherwise student is
+not allowed.
+audi2 student
+Audi2@Student34
+
+

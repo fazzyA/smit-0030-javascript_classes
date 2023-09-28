@@ -1,8 +1,10 @@
 //ifelse statement
 // var num = +prompt("enter any number");
 
-// if (condition => yes/no === true/false) {
+// if (condition => true/false) {
 
+// } else {
+    
 // }
 // if(num == 10) {
 // // do work here
