@@ -107,13 +107,3 @@ var likedFruit = fruits.slice(2) // ["kiwi", "cherry", "mango", "apple", "orange
 // for(let i = 1; i <= 100; i = i+2){
 //     console.log(i)
 // }
-// // even number 1- 100
-
-// for(let i = 2; i <= 100; i = i+2){
-//     console.log(i)
-// }
-let num = [];
-for(let i = 1; i <= 10; i++){
-   num.push(i)
-}
-console.log(num)

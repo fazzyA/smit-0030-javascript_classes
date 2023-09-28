@@ -1,3 +1,5 @@
+// let const var
+
 var _name = "";
 var myClassNum = "";
 var mk = 10;
