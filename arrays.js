@@ -5,23 +5,14 @@ var arr2 = new Array(10,29)
 var arr3 = new Array(10)
 var arr4 = [1, 2, 3, 4, 5, true, "binish"] // 7 //6
 
-// // var cities = ['Karachi', 'islamabad', 'multan'];
-// // cities length = 2 karachi = 0, isla-1
-// // var arr = new Array(1,2,3);
-// // console.log(cities);
-// // var mixedArray = [1, true, "faiza", 0.2];
-// // () // paranthesis
-// // [] square
-// // {}
-
-// // var ten = new Array("faiza");
-// // var ten1 = [10];
-// // console.log('ten ', ten) // 10, 0, 
-// // console.log('ten1 ', ten1.length) // 1
 // var cities = ['Karachi', 'islamabad', 'multan'];
-// // console.log(cities[1]); // access, read values
-// // // modify values / elements
-// // cities[2] = "Faisalabad";
+// cities length = 2 karachi = 0, isla-1
+// var arr = new Array(1,2,3);
+// console.log(cities);
+// var mixedArray = [1, true, "faiza", 0.2];
+// () // paranthesis
+// [] square
+// {}
 
 // var ten = new Array("faiza");
 // var ten1 = [10];
@@ -126,26 +117,3 @@ for(let i = 1; i <= 10; i++){
    num.push(i)
 }
 console.log(num)
-
-
-
-
-// // if person has applied for dubai and he is from karachi he is 
-// // eligible for saylani otherwise not
-// // var city = prompt("enter your city", 'karachi');
-// // var gender = prompt("enter your age", 'male');
-// // var appliedFor = prompt("applied for dubai: yes or no", "yes");
-// // var allowedCity = "karachi";
-// // if(city === allowedCity && gender === "male" && appliedFor === "yes"){
-// //     console.log('eligible for dubai job')
-// // } else {
-// //     console.log('not eligible')
-// // }
-// console.log("b" >= "a");
-
-var a = 10
-if (true) {
-    let b = 2
-    console.log(a)
-}
-console.log(b)
