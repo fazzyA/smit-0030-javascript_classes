@@ -36,9 +36,7 @@
 
 
 var price = [500 , 50, 200];
-
 console.log('original price' , price)
-
 for(let i = 0; i < price.length; i++){
     var percent = price[i]*10/100
     price[i] = percent + price[i]
@@ -46,3 +44,9 @@ for(let i = 0; i < price.length; i++){
 }
 console.log('price after 10% increament' , price)
 
+// addition
+let count = 0
+for(let i = 0; i < price.length; i++){
+    count += price[i]
+}
+console.log("🚀 ~ file: practice.js:49 ~ count:", count)
