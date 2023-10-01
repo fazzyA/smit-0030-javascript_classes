@@ -36,7 +36,7 @@
 
 
 var price = [500 , 50, 200];
-var increasedPrice = [];
+
 console.log('original price' , price)
 
 for(let i = 0; i < price.length; i++){
