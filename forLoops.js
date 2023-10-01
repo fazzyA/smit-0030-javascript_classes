@@ -14,3 +14,14 @@ for(let i = 0; i <= cities.length - 1; i++ ) {
         
     }
 }
+
+// // even number 1- 100
+const evenNum = [];
+for(let i = 2; i <= 100; i = i+2){
+    evenNum.push(i)
+}
+let num = [];
+for(let i = 1; i <= 10; i++){
+   num.push(i)
+}
+console.log(num)
