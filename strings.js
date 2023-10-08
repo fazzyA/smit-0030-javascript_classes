@@ -24,7 +24,7 @@ console.log(ins.toUpperCase())
 console.log("faiza".toUpperCase());
 //index charAt
 console.log(ins.charAt(0)) // s
-console.log(ins.charAt(4)) // undefined
+console.log(ins.charAt(4)) // 
 console.log(ins.charAt(ins.length - 1)) //t
 //using slice method 1
 // to search n replace word or group of words
@@ -40,16 +40,22 @@ console.log(ins.charAt(ins.length - 1)) //t
 
 
 // using indexof
-var text = "iam happy. 0 There is world war ii. hello world war ii"
-var search = "world war ii"
-var len = search.length //12
-var searchIndex = text.indexOf(search) // address -1
-console.log('asdsa',searchIndex,text.slice(searchIndex, searchIndex + len))
-if(searchIndex !== -1){ // if found
-    text = text.slice(0, searchIndex) + "second world war" + text.slice(searchIndex+len)
-    }
-console.log(text)
+// var text = "iam happy. 0 There is world war ii. hello world war ii"
+// var search = "world war ii"
+// var len = search.length //12
+// var searchIndex = text.indexOf(search) // address -1
+// console.log('asdsa',searchIndex,text.slice(searchIndex, searchIndex + len))
+// if(searchIndex !== -1){ // if found
+//     text = text.slice(0, searchIndex) + "second world war" + text.slice(searchIndex+len)
+//     }
+// console.log(text)
 
-var searchIndex1 = text.indexOf('i', 2) // address 0
-console.log("🚀 ~ file: strings.js:54 ~ searchIndex1:", searchIndex1)
+// var searchIndex1 = text.indexOf('i', 2) // address 0
+// console.log("🚀 ~ file: strings.js:54 ~ searchIndex1:", searchIndex1)
 
+// var searchTxt = "tob be or not to be. lets see"
+// document.write(searchTxt.indexOf("b"))
+
+var text = "iam happy. There is world war ii. hello world war ii"
+text = text.replaceAll("world war ii", "second world war")
+console.log("🚀 ~ file: strings.js:61 ~ text:", text)
