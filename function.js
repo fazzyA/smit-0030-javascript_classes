@@ -127,3 +127,8 @@ var curDate = new Date();
 var diff = future.getTime() - curDate.getTime();
 diff = Math.floor(diff/ (1000 * 60 * 60 *24))
 console.log(diff, "days left");
+//1 write a function which displays all the
+//array elements of week which is passed to the function
+// e.g ['mon', 'tue', ....]
+
+
