@@ -51,3 +51,18 @@ for (let i = 0; i < nArr.length; i++) {
     }
 console.log("object " + "is our " + "" + "next" + " topic");
 // object is our next topic
+
+// what will be the result
+for (let i = 1; i <= 2; i++) {
+    for (let j = 1; j <= 3; j++) {
+        console.log(i*j)        // 1 2 3 2 4 6 
+    }
+}
+
+// how to update value of the fourth element
+var numArr = [1, 7, 3];
+//a numArr[4] = 6
+//b numArr[3] = 6
+//b numArr[0] = 6
+
+// what is the operator in which both or either one is true then it gives true
