@@ -1,3 +1,13 @@
+const li = document.createElement("li") // <li></li>
+li.textContent = "first item"
+const li2 = document.createElement("li") // <li></li>
+li2.textContent = "sec item"
+const ul = document.getElementById("list")
+ul.appendChild(li)
+ul.appendChild(li2)
+
+
+
 // const div1 = document.getElementById("div1");
 // console.log("🚀 ~ file: todo.js:2 ~ div1:", div1.nodeType) //1 element 3 text
 // console.log("🚀 ~ file: todo.js:3 ~ div1nextSibling:", div1.nextSibling) //1 element 3 text
@@ -10,14 +20,14 @@
 // const body = document.getElementsByTagName("body"); //DIV
 // console.log("🚀 ~ file: todo.js:13 ~ body:", body[0])
 // calculate paras in dom div2
-const div2 = document.getElementById("div2"); //DIV
-let counter = 0;
-const childs = div2.childNodes;
-console.log("🚀 ~ file: todo.js:14 ~ childs:", childs)
-for (let i = 0; i < childs.length; i++) {
-      if(childs[i].nodeName === "P") {
-        counter++
-        }
-}
+// const div2 = document.getElementById("div2"); //DIV
+// let counter = 0;
+// const childs = div2.childNodes;
+// console.log("🚀 ~ file: todo.js:14 ~ childs:", childs)
+// for (let i = 0; i < childs.length; i++) {
+//       if(childs[i].nodeName === "P") {
+//         counter++
+//         }
+// }
 
-console.log("counter = ", counter);
+// console.log("counter = ", counter);
