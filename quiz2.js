@@ -34,9 +34,73 @@ console.log(str[0])// M
 // var newName = titlecase.join(' ')
 // console.log("🚀 ~ file: quiz2.js:35 ~ newName:", newName)
 
-var date =  new Date();
-console.log(date);
-console.log(Date.now()); // ms
-console.log(date.getTime()); //ms
-console.log(date.setDate(1));
-console.log(date);
+// var date =  new Date();
+// console.log(date);
+// console.log(Date.now()); // ms
+// console.log(date.getTime()); //ms
+// console.log(date.setDate(1));
+// console.log(date);
+// function add() {
+//  document.write(2+5);
+// }
+// var add2 = function (){ // expression function
+//  document.write(2+5);
+// }
+// add2()
+var addNum = function (a, b){
+  return a + b;
+}
+var result = addNum(12, 45); //57
+console.log(addNum(12, 45))
+console.log(square(5)); // 25
+
+function square(n) {
+    return n * n;
+  }
+
+function addSquare(a, b) { //nested
+    return  square(a) + square(b)
+}
+
+var res = addSquare(1, 7);
+console.log(square(3))
+console.log("🚀 ~ file: quiz2.js:66 ~ res:", res)
+
+var age = "acbn"
+//   switch(true){
+//     case age < 18:
+//         console.log("too young");
+//         break;
+//     case age == 18:
+//         console.log("elegible");
+//         break;
+//     case age > 18:
+//         console.log("too old");
+//         break;
+//     default:
+//         break;
+//   }
+const dayOfWk = "Sun"
+switch(dayOfWk) {
+   case "Sat" :
+   alert("Whoopee");
+   case "Sun" :
+   alert("Whoopee");
+   break
+   case "Fri" :
+   alert("TGIF!");
+   break;
+    default :
+    alert("Shoot me now!");
+    }
+
+    function double(arr) {
+        // [1, 2 , 3]
+        var doubleArr = []
+        for(let i =0; i < arr.length; i++) {
+            // double(arr[i] * 2)
+            arr[i] = arr[i] * 2
+        }
+        return arr
+    }
+    console.log(double([1, 2, 3]))

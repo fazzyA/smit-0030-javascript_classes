@@ -20,20 +20,20 @@
 // var menu = prompt("enter menu name");
 
 /// switch
-// switch (menu) {
-//   case "lobster":
-//   case "fish":
-//     price = 1000;
-//     break;
-//   case "biryani" || "pulao":
-//     price = 300;
-//     break;
-//   case "pasta":
-//     price = 500;
-//     break;
-//   default:
-//     price = 100;
-// }
+switch (menu) {
+  case "lobster":
+  case "fish":
+    price = 1000;
+    break;
+  case "biryani" || "pulao":
+    price = 300;
+    break;
+  case "pasta":
+    price = 500;
+    break;
+  default:
+    price = 100;
+}
 // document.write("your bill is ", price);
 var a = 12;
 switch (
