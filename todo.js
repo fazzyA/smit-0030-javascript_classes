@@ -2,10 +2,25 @@ const li = document.createElement("li") // <li></li>
 li.textContent = "first item"
 const li2 = document.createElement("li") // <li></li>
 li2.textContent = "sec item"
-const ul = document.getElementById("list")
-ul.appendChild(li)
-ul.appendChild(li2)
+// const ul = document.getElementById("list")
+// ul.appendChild(li)
+// ul.appendChild(li2)
+const ul = document.getElementsByTagName("ul");
+console.log("🚀 ~ file: todo.js:9 ~ ul:", ul[0].childNodes[1])
+const secLi = ul[0].childNodes[1];
+secLi.textContent = "tyar hojaye"
+const newPara = document.createElement("p")
+newPara.textContent = "lorem ispums"
+newPara.setAttribute("class", "para")
+newPara.setAttribute("id", "para1")
+const container = document.getElementById("container");
+container.appendChild(newPara)
 
+const inp = document.getElementById("todo")
+console.log(inp.attributes); 
+console.log("🚀 ~ file: todo.js:20 ~ inp:", inp.getAttribute("type"))
+
+// https://developer.mozilla.org/en-US/docs/Learn/JavaScript
 
 
 // const div1 = document.getElementById("div1");
