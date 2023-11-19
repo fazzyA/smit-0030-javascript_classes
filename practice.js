@@ -50,3 +50,18 @@ for(let i = 0; i < price.length; i++){
     count += price[i]
 }
 console.log("🚀 ~ file: practice.js:49 ~ count:", count)
+
+var name = "faiza aziz khan";
+console.log(name.indexOf('z')); 
+function countVow(str) {
+    let counter = 0;
+ for(let i =0; i<str.length; i++) {
+    if(str[i]=="a" || str[i]=="e" || str[i]=="i" || str[i]=="o" || str[i]=="u"){
+        counter++
+    }
+ }
+ return "Vowels count =" +counter
+}
+
+ const result = countVow(name) 
+ console.log("🚀 ~ file: practice.js:66 ~ result:", result)
