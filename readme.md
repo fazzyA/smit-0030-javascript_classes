@@ -3,7 +3,7 @@
 ## template literals
 ## local scope and global scope
 ## ternary operator
-# classes
+## classes
 ## destructuring
 ## spread and rest operators
 # short circuit evaluation
@@ -12,3 +12,4 @@
 ## array function
 1. #### map, filter, find
 ## promises
+[Advance JavaScript Slides](https://docs.google.com/presentation/d/19WaloIOVYh5igyTNxvOveqJiJX41pszXJ2chM7N5BSs/edit?usp=sharing) 
