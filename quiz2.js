@@ -114,8 +114,8 @@
 // console.log(date);
 // console.log(date.toString());
 // var str = date.toString();
-// console.log(date.toLocaleDateString());
-// console.log(date.toLocaleString());
+console.log(date.toLocaleDateString());
+console.log(date.toLocaleString());
 // // console.log(str[3]);
 // // var arr = str.split(' ')// []
 // // console.log("🚀 ~ file: quiz2.js:119 ~ arr:", arr)
