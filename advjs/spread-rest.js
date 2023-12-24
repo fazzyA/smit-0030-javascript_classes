@@ -25,7 +25,35 @@ display('Hi i need you to print me')
 
 // display('Hi i need you to print me', ' also me', ' and me too')
 
-// function displayArr(arr, ...b){
-//     console.log(arr, b)
-// }
-// displayArr(1, 2, 3)
+function displayArr(arr, ...b){
+    console.log(arr, b)
+}
+displayArr(1, 2, 3)
+
+function sum(...params) { // [1, 2, 3]
+    console.log(params)
+    let res = 0
+    params.forEach(el => {
+        res += el
+        // res = res + el
+    });
+    return res;
+}
+console.log(sum(1, 2))
+console.log(sum(1, 2, 3))
+
+const fruits = ["kiwi", "orange", "apple"]
+const sastefruits = ["banana"]
+const allFruits = [...fruits, ...sastefruits] //spreadop
+fruits.forEach(el => {
+    let exp = " bht mehnga hai <br/>"
+    document.write(el + exp)
+})
+fruits.forEach(el => document.write(el + " bht mehnga hai <br/>"))
+// for is general loop and foreach is for array
+for (let i = 0; i < 10; i++) {
+ console.log(i)
+}
+for( el in {name: "dfadf", fname: "sada"}){
+console.log(el)
+}
