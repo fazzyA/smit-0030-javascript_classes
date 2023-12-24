@@ -16,7 +16,7 @@ function display(param) {
 display('Hi i need you to print me')
 
 
-
+/// rest 
 
 // solution
 // function display(param, ...param2) {
