@@ -17,7 +17,7 @@ const myPromise = new Promise(function(resolve, reject) {
 // .then((res) => console.log("im fulfilled again"))
 // .catch((res) => console.log("im in failure", res))
 
-let gender = "khatoon"
+let gender = "female"
 const myPrime = new Promise((resolve, reject) => {
   if(gender === "female"){
     resolve("sucess")
@@ -26,12 +26,36 @@ const myPrime = new Promise((resolve, reject) => {
   }
 })
 
-myPrime
-.then((data) => console.log(data, 1))
-.then(() => console.log(2))
-.catch((data) => console.log(data, 3))
+try {
+    console.log("first")
+    myPrime
+    .then((data) => console.log(data, 1))
+    .catch((data) => console.log(data, 3)) 
+ } catch(err) {
+    console.log(err)
+} finally {
+    console.log("finally")
+}
 
-// fetch('https://jsonplaceholder.typicode.com/todos/1')
-// .then(data => data.json())
-// .then(data => console.log(data))
-// .catch(data => console.log("not running"))
+
+// // fetch('https://jsonplaceholder.typicode.com/todos/1')
+// // .then(data => data.json())
+// // .then(data => console.log(data))
+// // .catch(data => console.log("not running"))
+// let ab =10
+// if(gender === "female") {
+//     var username = "abc"
+//     console.log(ab)
+// }
+// console.log(username)
+// console.log(ab)
+
+// let name = "faiza"
+// let emp = "saylani"
+// let age = "no"
+// const obj = {
+//     name,
+//     emp,
+//     age
+// }
+// console.log("🚀 ~ file: promise.js:55 ~ obj:", obj)
