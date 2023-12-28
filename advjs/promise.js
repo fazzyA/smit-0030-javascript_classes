@@ -12,11 +12,26 @@ const myPromise = new Promise(function(resolve, reject) {
 // new Promise((resolve, reject) => {
 //  resolve()
 // })
-myPromise
-.then((res) => console.log("im fulfilled", res))
-.catch((res) => console.log("im in failure", res))
+// myPromise
+// .then((res) => console.log("im fulfilled", res))
+// .then((res) => console.log("im fulfilled again"))
+// .catch((res) => console.log("im in failure", res))
 
-fetch('https://jsonplaceholder.typicode.com/todos/1')
-.then(data => data.json())
-.then(data => console.log(data))
-.catch(data => console.log("not running"))
+let gender = "khatoon"
+const myPrime = new Promise((resolve, reject) => {
+  if(gender === "female"){
+    resolve("sucess")
+  } else if(gender === "male"){
+    reject("failure")
+  }
+})
+
+myPrime
+.then((data) => console.log(data, 1))
+.then(() => console.log(2))
+.catch((data) => console.log(data, 3))
+
+// fetch('https://jsonplaceholder.typicode.com/todos/1')
+// .then(data => data.json())
+// .then(data => console.log(data))
+// .catch(data => console.log("not running"))
